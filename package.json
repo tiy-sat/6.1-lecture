@@ -10,7 +10,8 @@
     "start": "node index.js",
     "watch-dev": "webpack --watch",
     "dev": "npm run watch-dev & npm start",
-    "build": "webpack"
+    "build": "webpack",
+    "heroku-postbuild": "webpack"
   },
   "dependencies": {
     "ejs": "2.4.1",
